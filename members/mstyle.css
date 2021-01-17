@@ -12,7 +12,8 @@
 }
 body {
   padding : 10px;
-  background-color:#08101d;
+  background-size: contain;
+  background-image: url("zf.png");
   
 }
 blockquote{
@@ -187,4 +188,18 @@ ul{
 .block:after {
 	filter: blur(50px);
 }
-
+@media only screen and (max-width: 600px)
+{
+  body{
+    background-size: 600px 600px;
+  }
+  .block{
+    width:80%;
+    font-size: 25px;
+  }
+  blockquote{
+    overflow:auto;
+    width:70%;
+    height:300px;
+  }
+}
