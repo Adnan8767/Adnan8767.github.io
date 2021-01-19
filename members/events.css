@@ -53,12 +53,14 @@ body{
 	padding: 0;
 	border-radius: 30px 0px;
 	overflow: hidden;
+	background-image: linear-gradient(to bottom, white 30%, #340B8C 30%);
 
 }
 .cardd .img{
   width:110%;
   height:160px;
   background-color: white;
+  transform: rotate(7deg);
 }
 .cardd span{
 	display: block;
@@ -72,7 +74,7 @@ body{
 	margin: 0;
 	word-spacing: 5px;
 	font-family: 'Nunito', sans-serif;
-	background:linear-gradient(45deg,#340B8C,#F205CB);
+	background-image:linear-gradient(to right bottom,#340B8C 15%,#F205CB 70%);
 }
 .cardd p a{
 	color: white;
