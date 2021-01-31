@@ -53,14 +53,18 @@ body{
 	padding: 0;
 	border-radius: 30px 0px;
 	overflow: hidden;
-	background-image: linear-gradient(to bottom, white 30%, #340B8C 30%);
+	background-image: linear-gradient(to bottom, black 30%, #340B8C 30%);
 
 }
 .cardd .img{
   width:110%;
-  height:160px;
-  background-color: white;
+  position:relative;
+  top:0px;
+  left: -10px;
+  height:200px;
   transform: rotate(7deg);
+  background-image: url("gg1.jpg");
+  background-size:100% 200px;
 }
 .cardd span{
 	display: block;
