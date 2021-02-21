@@ -115,7 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
    
-      var html = '<a href="#" class="gg" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');">';
+      var html = '<a href="#" class="gg" onclick="$dc.loadMenuItems('{randomCategoryShortName}');">';
       var htmltoinsert = insertProperty(html,"randomCategoryShortName",chosenCategoryShortName1); 
 
 
