@@ -11,7 +11,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var dc = {};
+var dc = new object(window);
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
@@ -115,7 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
    
-      var html = '<a href="#" class="gg" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');">';
+      var html = '<a href="#" class="gg" onclick="$dc.loadMenuItems('{randomCategoryShortName}');">';
       var htmltoinsert = insertProperty(html,"randomCategoryShortName",chosenCategoryShortName1); 
 
 
@@ -340,6 +340,6 @@ function insertItemPortionName(html,
 }
 
 
-global.$dc = dc;
+window.dc = dc;
 
 })(window);
