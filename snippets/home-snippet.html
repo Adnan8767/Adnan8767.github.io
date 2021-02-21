@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     </head>
@@ -21,10 +19,7 @@
         <a href="#" onclick="dc.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="#" id="gg" onclick='dc.loadMenuItems("{{randomCategoryShortName}}");'>
-
-        <a href="#" id="gg" onclick="dc.loadMenuItems('{randomCategoryShortName}');">
-
+        <a href="#" id="gg" onclick="dc.loadMenuItems('{{randomCategoryShortName}}');">
           <div id="specials-tile"><span>specials</span></div>
         </a>
       </div>
